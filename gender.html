@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css"> 
+	<link rel="stylesheet" href="common.css"> 
+	<title>Tagent</title>
+	<script src="common.js"></script>
+</head>
+<body>
+	<div class="common-page">
+		<div class="page-header">
+			<h2>성별을 선택해주세요</h2>
+		</div>
+		<br>
+		<div class="page-content">
+			<label for="male" class="gender-input-wrapper">
+				<p>남자</p><input type="radio" id="male" name="gender" class="gender-input">
+			</label>
+			<label for="female" class="gender-input-wrapper">
+				<p>여자</p><input type="radio" id="female" name="gender" class="gender-input">
+			</label>
+			<label for="none" class="gender-input-wrapper">
+				<p>지정하지 않음</p><input type="radio" id="none" name="gender" class="gender-input">
+			</label>						
+		</div>
+		<div class="page-footer">
+			<button id="prev">
+				<p>
+					< 이전
+				</p>
+			</button>
+			<button id="next">
+				<p>
+					다음 >
+				</p>
+			</button>
+		</div>
+		
+	</div>
+</body>
+</html>

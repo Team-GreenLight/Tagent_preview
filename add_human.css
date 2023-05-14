@@ -1,0 +1,108 @@
+*|* {
+	transition: all;
+	transition-duration: 1.0s;
+}
+input {
+	border: none;
+}
+input:focus {
+	outline: none;
+}
+button {
+	border-color: #219e58;
+	background-color: #219e58;
+}
+li {
+	list-style: none;
+}
+.common-page {
+}
+.page-header {
+	z-index: 2;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 80px;
+	background-color: #219e58;
+	color: white;
+	padding-left: 20px;
+	font-size: 15px;
+}
+.page-header > h1 {
+	float: left;
+}
+.page-content {
+	margin-top: 80px;
+	padding: 20px;
+	text-align: center;
+}
+.page-footer > button:nth-child(2) {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 0px 30px 0px 30px;
+}
+.page-footer > button:nth-child(1) {
+	position: fixed;
+	background-color: gray;
+	border-color: gray;
+	bottom: 10px;
+	right: 130px;
+	border-radius: 20px;
+	text-align: center;
+	padding: 0px 30px 0px 30px;
+}
+.page-footer > button > p {
+	font-size: 15px;
+	color: white;
+}
+#img-field {
+	position: relative;
+	margin: 0px auto;
+	width: 250px;
+	height: 250px;
+}
+#img-field > img {
+	position: absolute;
+	border-radius: 30px;
+	left: 25px;
+	top: 25px;
+}
+#img-field > i {
+	position: absolute;
+
+	color: white;
+
+	border: 20px solid #219e58;
+	border-radius: 50%;
+
+	background-color: #219e58;
+
+	left: 200px;
+	top: 200px;
+}
+#property-field {
+	margin-top: 40px;
+	text-align: left;
+}
+
+.input-field, #tag-plus {
+	display: block;
+	background: #f7f7f7;
+	border: none;
+	height: 25px;
+	font-size: 15px;
+}
+#profile-plus {
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 12px;
+}
+#tag-field {
+	color: #219e58;
+	font-weight: bold;
+}

@@ -29,8 +29,8 @@ function loadFriendsInfo() {
 		description.append(name);
 
 		const group_tag = document.createElement("i");
-		group_tag.className = "fa fa-users";
-		group_tag.innerHTML = " " + friend.group;
+		group_tag.className = "fa fa-users group";
+		group_tag.innerHTML = " " + friend.group.split(" ")[1];
 
 		description.append(group_tag);
 		description.append(document.createElement("br"));

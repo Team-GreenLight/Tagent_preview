@@ -181,3 +181,8 @@ li {
 .page-footer {
 
 }
+.group {
+	padding: 4px;
+	border-radius: 10px;
+	background-color: beige;
+}

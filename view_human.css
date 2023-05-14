@@ -102,7 +102,7 @@ li {
 	text-align: center;
 	line-height: 12px;
 }
-#tag-field {
+#tag-field, #group-field {
 	color: #219e58;
 	font-weight: bold;
 }

@@ -88,7 +88,7 @@ li {
 	text-align: left;
 }
 
-.input-field, #tag-plus {
+.input-field, #tag-plus, #group-plus {
 	display: block;
 	background: #f7f7f7;
 	border: none;
@@ -102,7 +102,18 @@ li {
 	text-align: center;
 	line-height: 12px;
 }
+#profile-plus-group {
+	padding: 0;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	line-height: 12px;
+}
 #tag-field {
+	color: #219e58;
+	font-weight: bold;
+}
+#group-field {
 	color: #219e58;
 	font-weight: bold;
 }

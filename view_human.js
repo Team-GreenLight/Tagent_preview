@@ -16,6 +16,7 @@ function init() {
 				p.innerHTML = p.id + " : " +  friend[p.id];
 			}
 			document.getElementById("tag-field").innerHTML = friend.tags;
+			document.getElementById("group-field").innerHTML = friend.group;
 		}
 	}
 }
